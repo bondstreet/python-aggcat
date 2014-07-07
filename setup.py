@@ -34,8 +34,8 @@ setup(
   install_requires = [
     'lxml==3.2.1',
     'M2Crypto==0.21.1',
-    'requests==1.2.0',
-    'requests-oauthlib==0.3.3'
+    'requests>=2.3.0',
+    'requests-oauthlib>=0.4.1'
   ],
   classifiers = [
     'Development Status :: 4 - Beta',
