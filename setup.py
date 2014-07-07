@@ -32,8 +32,8 @@ setup(
     'aggcat'
   ],
   install_requires = [
-    'lxml==3.2.1',
-    'M2Crypto==0.21.1',
+    'lxml>=3.2.1',
+    'M2Crypto>=0.21.1',
     'requests>=2.3.0',
     'requests-oauthlib>=0.4.1'
   ],
