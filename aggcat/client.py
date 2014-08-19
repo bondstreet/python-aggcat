@@ -158,6 +158,7 @@ class AggcatClient(object):
                 self._make_request(path, method, body, query, headers)
 
         if response.status_code not in [200, 201, 401]:
+            import pdb; pdb.set_trace()
             raise HTTPError('Status Code: %s, Response %s' % (response.status_code, response.text,))
 
         if return_obj:
